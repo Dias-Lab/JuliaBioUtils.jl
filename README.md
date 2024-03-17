@@ -10,7 +10,7 @@ To start, add the package from the github repo.
 
 ```julia
 using Pkg
-Pkg.add("https://github.com/nas2011/JuliaBioUtils.jl")
+Pkg.add("https://github.com/Dias-Lab/JuliaBioUtils.jl")
 ```
 
 The first build is going to be slow as everything is compiling. There are a few large dependencies that I preemptively included as they will be used for future functionality.
