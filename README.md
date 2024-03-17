@@ -6,11 +6,15 @@
 
 ## Installation
 
-To start, add the package from the github repo. 
-
+To start, add the package from the github repo. First do
 ```julia
 using Pkg
-Pkg.add("https://github.com/Dias-Lab/JuliaBioUtils.jl")
+```
+
+Then enter the package manager mode by pressing ```]``` then do:
+
+```julia
+(env) pkg> add https://github.com/Dias-Lab/JuliaBioUtils.jl
 ```
 
 The first build is going to be slow as everything is compiling. There are a few large dependencies that I preemptively included as they will be used for future functionality.
