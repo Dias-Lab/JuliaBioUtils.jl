@@ -6,9 +6,11 @@
 
 ## Installation
 
-To start, add the package from the github repo. First do
-```julia
-using Pkg
+To start, add the package from the github repo. First start Julia
+```bash
+$ module load julia
+$ julia
+> using Pkg
 ```
 
 Then enter the package manager mode by pressing ```]``` then do:
